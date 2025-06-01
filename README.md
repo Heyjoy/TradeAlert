@@ -14,7 +14,7 @@
 
 1. 克隆仓库：
 ```bash
-git clone [repository-url]
+git clone https://github.com/Heyjoy/TradeAlert.git
 cd TradeAlert
 ```
 
@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 1. 启动监控服务：
 ```bash
-python main.py
+python main.py start
 ```
 
 2. 添加股票监控：
@@ -60,4 +60,4 @@ python main.py remove --symbol AAPL
 
 ## 许可证
 
-MIT License 
+MIT License
